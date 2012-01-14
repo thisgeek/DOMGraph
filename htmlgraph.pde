@@ -35,14 +35,14 @@ Smoother3D centroid;
 
 // MAKE SURE YOU CHANGE THIS! I might change this site in the future.
 // Simply point to a site on your own server that gets the html from any other site.
-private String urlPath = "http://www.aharef.info/static/htmlgraph/getDataFromURL.php?URL=";
+private String urlPath = "";
 private String content;
 
 float NODE_SIZE = 30;
 float EDGE_LENGTH = 50;
 float EDGE_STRENGTH = 0.2;
 float SPACER_STRENGTH = 2000;
-  
+
 final String GRAY = "155,155,155";
 final String BLUE = "0,0,155";
 final String ORANGE = "255,155,51";
